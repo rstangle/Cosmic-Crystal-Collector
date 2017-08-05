@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+/*body {
+	background: #221b26;
+}*/
+
+.jumbotron {
+	background: none;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.thumbnail {
+/*	background-color: #221b26;*/
+	margin: 20% 5%;
+	border: 0px;
+	box-shadow: none;
+	background: none;
+}
+
+button {
+	margin: 15% auto;
+}
