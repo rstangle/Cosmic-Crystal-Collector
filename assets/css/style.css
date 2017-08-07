@@ -2,9 +2,15 @@
 	box-sizing: border-box;
 }
 
-/*body {
-	background: #221b26;
-}*/
+body {
+
+	background-image: url("../images/background.png");
+		background: #f1f1f1;
+	background-repeat: vertical;
+	background-position: center center;
+/*	background-attachment: fixed;*/
+	background-size: cover;
+}
 
 .jumbotron {
 	background: none;
@@ -21,8 +27,9 @@ h1 {
 	border: 0px;
 	box-shadow: none;
 	background: none;
+
 }
 
-button {
+#reset {
 	margin: 15% auto;
 }
