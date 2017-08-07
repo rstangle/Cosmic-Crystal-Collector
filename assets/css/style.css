@@ -20,7 +20,9 @@ body {
 	padding: 0px 3%;
 	background-color: rgba(24, 27, 36, 0.7);
 	border-radius: 5%;
-	border: solid 2px #8c7ea1;
+	border: solid 5px #8c7ea1;
+	box-shadow: 2px 2px 5px #181b24;
+/*	box-shadow: 2px 2px 5px #181b24 inset;*/
 }
 /*.page-header {
 	font-family: 'Righteous', cursive;
@@ -44,7 +46,7 @@ body {
 h1 {
 	text-align: center;
 	font-family: 'Righteous', cursive;
-	font-size: 54px;
+	font-size: 50px;
 	color: white;
 /*	color: #463c73;*/
 /*	color: rgba(76, 175, 80, 0.6);*/
@@ -54,7 +56,11 @@ h1 {
 
 h1 small {
 	font-size: 32px;
-	color: #d0cebf;
+	color: #e09730;
+}
+
+h3 {
+	margin-top: 0px;
 }
 
 .thumbnail {
