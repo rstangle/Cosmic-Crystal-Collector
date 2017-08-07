@@ -29,9 +29,9 @@
 </head>
 <body>
 
-	<div class="container" style="/*background-color: white;*/ padding: 0px 50px;">
+	<div class="container">
 		<div class="page-header">
-  			<h1>Crystal Counter <!-- <small>Subtext for header</small> --></h1>
+  			<h1>Crystal Counter <br><small>Let's collect those crystals!</small></h1>
 		</div>
 
 		<div class="jumbotron">
@@ -62,9 +62,14 @@
 				</div>
 			</div>
 			<div class="col-xs-6 col-md-4">
-				<div class="panel panel-default">
-  					<div id="wins" class="panel-body">Wins:</div>
-  				<div id="losses" class="panel-footer">Loses:</div>
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+					    <h3 class="panel-title">Your Crystal Bank:</h3>
+  					</div>
+  					<div class="panel-body">
+  						<p id="wins">0</p>
+  					</div>
+  				<!-- <div id="losses" class="panel-footer">Loses:</div> -->
 				</div>
 			</div>
 		</div>

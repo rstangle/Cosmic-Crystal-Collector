@@ -12,9 +12,11 @@ body {
 	background-size: cover;
 	font-family: 'Roboto', sans-serif;
 	color: #463c73;
-
 }
 
+.container {
+	padding: 0px 50px;
+}
 /*.page-header {
 	font-family: 'Righteous', cursive;
 	font-size: 72px;
@@ -28,7 +30,7 @@ body {
 }
 
 .jumbotron p {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: left;
 	font-family: 'Roboto', sans-serif;
 }
@@ -38,8 +40,12 @@ h1 {
 	font-family: 'Righteous', cursive;
 	font-size: 72px;
 /*	color: #463c73;*/
-	color: #33cccc;
-	text-shadow: 2px 2px 5px lightgrey;
+	color: rgba(76, 175, 80, 0.6);
+/*	text-shadow: 2px 2px 5px lightgrey;*/
+}
+
+small {
+	font-size: 18px;
 }
 
 .thumbnail {
@@ -91,7 +97,12 @@ div p {
 	text-align: center;
 }
 
+/***********************************************************************************************************************
+***********************************************************************************************************************/
+/*Modal box did not work :(*/
 
+/***********************************************************************************************************************
+***********************************************************************************************************************/
 
 @media screen and (min-width: 768px) {
 	.container .jumbotron {
