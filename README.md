@@ -1,7 +1,7 @@
 # Cosmic Crystal Collector
 
 #### Copyright 2017 Ryan Stangle
-#### https://rstangle.github.io/Marvel-Puzzle-Challenge/
+#### https://rstangle.github.io/Cosmic-Crystal-Collector/
 
 
 -----------------------------------------
